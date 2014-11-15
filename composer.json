@@ -1,0 +1,19 @@
+{
+    "name": "aequasi/php-blackjack",
+    "description": "PHP Blackjack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Scherer",
+            "email": "aequasi@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aequasi\\BlackJack\\": "src/"
+        }
+    }
+}
